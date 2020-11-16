@@ -70,14 +70,7 @@ public class ButtonCollection extends JFrame implements ActionListener{
 			bt.setBackground(Color.YELLOW);
 		}
 	}
-	public void setBgGreen() {
-		//btn 리스트에 들어있는 모든 요소를 대상으로 배경색 바꾸기!!
-		//ArrayList는 순서있는 집합이므로 for문을 상요 할 수 있다
-		for(int i = 0;i<btn.size();i++) {
-			JButton bt = btn.get(i);
-			bt.setBackground(Color.YELLOW);
-		}
-	}
+	
 	
 	
 	public static void main(String[] args) {

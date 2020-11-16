@@ -1,6 +1,6 @@
 package day1028.graphic.color;
 
-import java.awt.BorderLayout;
+import java.awt.BorderLayout; 
 import java.awt.Color;
 
 import javax.swing.JFrame;

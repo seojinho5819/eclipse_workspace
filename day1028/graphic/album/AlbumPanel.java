@@ -1,6 +1,6 @@
 package day1028.graphic.album;
 
-import java.awt.Graphics;
+import java.awt.Graphics; 
 import java.awt.Image;
 import java.awt.Toolkit;
 

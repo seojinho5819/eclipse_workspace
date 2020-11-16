@@ -1,6 +1,6 @@
 package day1028.chat;
 
-import java.awt.BorderLayout;
+import java.awt.BorderLayout; 
 import java.awt.Color;
 import java.awt.Dimension;
 import java.awt.event.ActionEvent;
@@ -88,10 +88,10 @@ public class ChatClient extends JFrame implements KeyListener, ActionListener{
 		
 		//조건문..
 		if(btn==bt) { //누른버튼과 send버튼의 주소값이 같다면..
-			System.out.println("send 버튼 눌렀어?");
+			//System.out.println("send 버튼 눌렀어?");
 			send();
 		}else if(btn.equals(bt_open)) {//누른버튼과 열기 버튼이 같은 버튼이라면...
-			System.out.println("open 버튼 눌렀어?");
+			//System.out.println("open 버튼 눌렀어?");
 			open();
 		}
 	}
